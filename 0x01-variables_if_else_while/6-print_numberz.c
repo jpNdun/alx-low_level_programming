@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 /**
  * entry -main point
  *
@@ -6,11 +6,10 @@
  */
 int main(void);
 {
-int i = '0';
-while (i <= '9')
+int i;
+for (i = 48; i <= 57; i++)
 {
 putchar(i);
-i++;
 }
 putchar('\n');
 return (0);
