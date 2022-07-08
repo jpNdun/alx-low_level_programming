@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
+char alphabet;
+for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 {
-if (a == 'q' || a == 'e')
+if (alphabet == 'q' && alphabet == 'e')
 {
-putchar (a);
+putchar (alphabet);
 }
 }
 putchar ('\n');
