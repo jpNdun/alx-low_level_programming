@@ -1,15 +1,15 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * entry -main point
+ * entry - main point
  *
  * Return: always returns 0
  */
-int main(void);
+int main(void)
 {
-int i;
-for (i = 48; i <= 57; i++)
+int a = 0;
+for (; a < 10; a++)
 {
-putchar(i);
+putchar('0' + a);
 }
 putchar('\n');
 return (0);
