@@ -1,14 +1,16 @@
 #include "main.h"
 /**
-* demmo - prints 'demo'
+* main - prints 'demo'
 *
-*Return: nothing
+* Return: nothing
 */
-void demo(void)
+int main(void)
 {
 _putchar('d');
 _putchar('e');
 _putchar('m');
 _putchar('o');
 _putchar('\n');
+
+return (0); 
 }
