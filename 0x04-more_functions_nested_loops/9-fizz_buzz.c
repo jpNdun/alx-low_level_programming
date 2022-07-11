@@ -26,7 +26,7 @@ int main(void)
 		}
 		else
 		{
-			print("%d", x);
+			print("%d ", x);
 		}
 
 		if (x != 100)
