@@ -2,10 +2,10 @@
 #include <stdio.h>
 
 /**
- * rot13 - ...
- * @s: ...
+ * rot13 - Encodes a string
+ * @s: String to encode
  *
- * Return: ...
+ * Return: Value encoded
  */
 char *rot13(char *s)
 {
