@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * reverse_array - reversing an array
- * @a: array a
- * @n: an element of an array
- */
+* reverse_array - reversing an array
+* @a: array a
+* @n: an element of an array
+*/
 void reverse_array(int *a, int n)
 {
 	int *p, i, aux, k;
-	
+
 	p = a;
 
 	for (i = 1; i < n; i++)
