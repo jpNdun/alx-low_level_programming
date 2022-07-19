@@ -1,34 +1,29 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
-*_strpbrk - search a string for any of a set of bytes
-*@s: source string
-*@accept: accepted characters
+* _strpbrk - prints the consecutive characters of s1 that are in s2
+* @s: source string
+* @accept: searching string
 *
-*Return: the string since the first found accepted character
+* Return: new string
 */
-char*_strpbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
-int a = 0, b;
+unsigned int i, j;
 
-while (s[a])
+for (i = 0; *(s + i); i++)
 {
-b = 0;
-
-while (accept[b])
-{
-	if (s[a] == accept[b])
+	for (j = 0; *(accept + j); j++)
 	{
-		s += a;
-		return (s);
+		if (*(s + i) == *(accept + j))
+		{
+			break;
+		}
 	}
-
-	b++;
-
-}	
-
-a++;
+	if (*(accepy + j) != '\0')
+	{
+		return (s + i);
+	}
 }
-
-return('\0');
+return (0);
 }
