@@ -20,7 +20,7 @@ for (i = 0; *(s + i); i++)
 			break;
 		}
 	}
-	if (*(accepy + j) != '\0')
+	if (*(accept + j) != '\0')
 	{
 		return (s + i);
 	}
