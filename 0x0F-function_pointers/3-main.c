@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
-	res = (get_op_func(array[2]))(a,b);
+	res = (get_op_func(array[2]))(a, b);
 	printf("%d\n", res);
 	return (0);
 }
