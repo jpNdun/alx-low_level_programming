@@ -1,6 +1,6 @@
 #include "3-calc.h"
 /**
- * op_add - return the sum of 2 num
+ * op_add - returns the sum of 2 numbers
  * @a: num1
  * @b: num2
  *
@@ -11,7 +11,7 @@ int op_add(int a, int b)
 	return (a + b);
 }
 /**
- * op_sub - returns the differnce of 2 nums
+ * op_sub - returns the difference of 2 numbers
  * @a: num1
  * @b: num2
  *
@@ -19,10 +19,10 @@ int op_add(int a, int b)
  */
 int op_sub(int a, int b)
 {
-	return(a - b);
+	return (a - b);
 }
 /**
- * op_mul - returns the product of 2 nums
+ * op_mul - returns the product of 2 numbers
  * @a: num1
  * @b: num2
  *
@@ -30,10 +30,10 @@ int op_sub(int a, int b)
  */
 int op_mul(int a, int b)
 {
-	return(a * b);
+	return (a * b);
 }
 /**
- * op_div - returns the quotient of 2 nums
+ * op_div - returns the quotient of 2 numbers
  * @a: num1
  * @b: num2
  *
